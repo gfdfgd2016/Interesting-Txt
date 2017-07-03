@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/ic_menu_share"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="share"
+        android:icon="@android:drawable/ic_menu_share"
+        />
+  <item
+        android:id="@+id/itemSave"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+         android:title="save"
+         android:icon="@drawable/save"
+      /> 
+
+
+</menu>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/colorfirst"
+    tools:context=".IntroductionActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="42dp"
+                android:text="主要功能：笔记分类、增删改查、语音识别、人脸情绪识别
+（具体操作，相信聪明的你，一用就会）
+如果还想看，那就往下吧。（这个是spiritual）
+
+点滴生活，记录你我
+可以是 父母儿女的剪影
+可以是 友谊之树常青
+可以是 恋人间的密语柔情
+可以是 一个人的放纵（嬉笑怒骂）
+可以是 一群人的青春、暮年
+可以是 点滴积累的溪水长流
+可以是 片刻的炽烈狂热
+
+可以是 作家的随笔（偶得的领悟）
+可以是 心底的一句歇斯底里
+……
+
+这个世界偶尔很坏，愿你被温柔以待
+希望，世界温柔，愿你亦能成为别人的温暖
+每天都有不一样的温暖，而你就是那从未离开的晨光。
+“点滴”一句话，是的，今天我很开心。
+
+
+玛蒂尔达问里昂：生活是否永远艰辛？还是仅仅童年才如此？
+里昂回答：总是如此。
+
+天地为炉，谁不是在苦苦煎熬
+在你不知道的地方
+总有一些人比你承受着更多的痛苦
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
